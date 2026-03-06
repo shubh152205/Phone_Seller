@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baba The Hi-Tech — Speed Redefined</title>
+    <meta name="description"
+        content="Premium smartphones, gadgets & repair services. India's fastest tech store with 10-minute delivery." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4b1d95',
+                        'primary-light': '#6d28d9',
+                        'primary-faint': 'rgba(75,29,149,0.08)',
+                        'bg-light': '#f7f6f8',
+                        'bg-dark': '#171220',
+                        'text-primary': '#0f172a',
+                        'text-secondary': '#64748b',
+                        success: '#10b981',
+                        warning: '#f59e0b',
+                        danger: '#ef4444',
+                        surface: '#ffffff',
+                        'surface-dark': '#1e1b2e',
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                    },
+                    borderRadius: {
+                        'card': '24px',
+                        'btn': '12px',
+                        'badge': '999px',
+                        'input': '12px',
+                    },
+                    maxWidth: {
+                        'content': '1280px',
+                    },
+                    boxShadow: {
+                        'card-hover': '0 20px 60px rgba(75,29,149,0.12)',
+                        'btn': '0 4px 16px rgba(75,29,149,0.3)',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
